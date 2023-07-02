@@ -1,30 +1,11 @@
-"""
-RadioPlayerV2, Telegram Voice Chat Bot
-Copyright (C) 2021  Asm Safone <https://t.me/AsmSafone>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-"""
-
-
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @AsmSafone!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **FM Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @BotGeniusHub!"
 HELP = """🏷️ **Need Help?** 🤔
-__(Join @SafoTheBot For Support)__
+__(Join @BotGeniusHub For Support)__
 
 🏷️ **Common Commands**:
 \u2022 `/play` reply to an audio to play or queue it
@@ -49,7 +30,7 @@ __(Join @SafoTheBot For Support)__
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @I_Am_Only_One_1** 👑
+🏷️ **Developer: @SexyNano** 👑
 """
 
 
@@ -57,12 +38,12 @@ __(Join @SafoTheBot For Support)__
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/SafoTheBot'),
+        InlineKeyboardButton('CHANNEL', url='https://t.me/BotGeniusHub'),
+        InlineKeyboardButton('SUPPORT', url='https://t.me/BGHsupport'),
     ],
     [
-        InlineKeyboardButton('MORE BOTS', url='https://t.me/AsmSafone/12'),
-        InlineKeyboardButton('SOURCE CODE', url='https://github.com/AsmSafone/RadioPlayerV2'),
+        InlineKeyboardButton('MORE BOTS', url='https://t.me/BotGeniusHub'),
+        InlineKeyboardButton('SOURCE CODE', url='https://github.com/'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
