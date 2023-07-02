@@ -15,5 +15,5 @@ class Config:
     STREAM_URL = os.environ.get("STREAM_URL", "https://radioindia.net/radio/hungamanow/icecast.audio")
     API_HASH = os.environ.get("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6377102011:AAE3ltg7QR20ChoH1HaBl6GCbig8xi7yjGc") 
-    SESSION = os.environ.get("SESSION_STRING", "")
+    SESSION = os.environ.get("SESSION_STRING", "BQC2m-ZDdKVdvXhEzNvexhcZhk7rdxpVQKXrC5Oq3L4n2OkzYOmwnNB3UAkUbnpmumQ8bjBB1EoRr4EiC3BN-aQ82mrnksNeKB8evxdnonjtCHza9YPh24rn56qvUdCfYOBiW8_BE1ki0i8zW1IJ3HqdtYKMh4woeD64Z1sI9lj5MJGF3kCzk_02Mcs0XrDnvM6-dV7dqvhfP6m231rAzXR46GAkMx9R7PrzStfN7DCeALBDgE3UqqysuZ_pjFZ4cucS7uE71wbwYzbHStcOwOSUgXIa9fsrA2w9-R9XjgOm8GpOYuqVScuQBXP25hd-DT5lyQJYub1nbAqAAM07ptnOAAAAAWVYVzQA")
 
