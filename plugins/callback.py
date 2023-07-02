@@ -1,21 +1,3 @@
-"""
-RadioPlayerV2, Telegram Voice Chat Bot
-Copyright (C) 2021  Asm Safone <https://t.me/AsmSafone>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-"""
-
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, emoji
 from datetime import datetime, timedelta
@@ -159,7 +141,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except:
             pass
     elif query.data=="help":
-        await query.edit_message_text("🙋‍♂️ **Hi Bruh**, \nJust Send Me An Audio File To Play. You Can Use @SafoneMusicBot To Get Audio Files! 😌\n\nCheck /help To Know More ...",
+        await query.edit_message_text("🙋‍♂️ **Hi Bruh**, \nJust Send Me An Audio File To Play. You Can Use @GeniusMusicBot To Get Audio Files! 😌\n\nCheck /help To Know More ...",
         reply_markup=InlineKeyboardMarkup(
                 [
                     [
