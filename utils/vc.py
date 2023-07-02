@@ -6,6 +6,7 @@ from pyrogram import emoji
 from pyrogram.methods.messages.download_media import DEFAULT_DOWNLOAD_DIR
 from pyrogram.types import Message
 import signal
+from pytgcalls import GroupCall
 from user import USER
 
 STREAM_URL=Config.STREAM_URL
