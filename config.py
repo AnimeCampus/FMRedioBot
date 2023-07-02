@@ -14,6 +14,6 @@ class Config:
         LOG_GROUP = None
     STREAM_URL = os.environ.get("STREAM_URL", "https://radioindia.net/radio/hungamanow/icecast.audio")
     API_HASH = os.environ.get("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6377102011:AAE3ltg7QR20ChoH1HaBl6GCbig8xi7yjGc") 
     SESSION = os.environ.get("SESSION_STRING", "")
 
